@@ -239,30 +239,64 @@ You should fill in your `Bluetooth data` & `Video data`.
 
 # Flow Chart
 ![Flow Diagram](assets/flow.png)
-# How To Use
-1. Setting RTSP to CCTV video
-```bash
-RTSP saving in GuardianWatch/koren/KOREN/CCTV/`channel_num`/`year`/`month`/`day`/`yyyyMMddHHmmss.mp4`
-
-example) `GuardianWatch/koren/KOREN/CCTV/ch02/2023/10/15/20231015142134.mp4
 ```
-2. Execute WatchDog system to observer CCTV video
+Flow Numbers
+1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣
+```
+# How To Use
+1. Setting RTSP to CCTV video & Bluetooth 
 ```bash
-GuardianWatch/koren/code/automatize/automation.py
+1️⃣
+CCTV Video RTSP
+Saving in GuardianWatch/koren/KOREN/CCTV/`channel_num`/`year`/`month`/`day`/`yyyyMMddHHmmss.mp4`
+
+example) GuardianWatch/koren/KOREN/CCTV/ch02/2023/10/15/20231015142134.mp4
+-----------------------------------------------------------------------------------------------------
+Collect Bluetooth RSSI
+Use Bluetooth APP to get RSSI values & time 
+# Download APP in Equipment to Collect
+git clone https://github.com/sts07142/Bluetooth
+```
+2. Execute WatchDog system to observer CCTV video and Automatic System
+```bash
+2️⃣,3️⃣
+python3 GuardianWatch/koren/code/automatize/automation.py
+```
+
+3. Flask server
+```bash
+4️⃣
+cd GuardianWatch/koren/code/KOREN_Flask
+python3 app.py
+```
+
+4. GuardianWatch APP
+```bash
+5️⃣
+git clone https://github.com/sts07142/guardianwatch_app
 ```
 
 # Used Equipments / Models
 ## Equipments
-- CCTV : WiseNet Wireless NVR security system (1080p)
-- Smart Watch : Samsung Galaxy watch 5 (wifi model)
+- CCTV : [WiseNet Wireless NVR security system (1080p)](https://www.wisenetlife.com/en-us/product/All-in-One/SNK-B73047BW/feature/)
+
+- Smart Watch : [Samsung Galaxy watch 5 (wifi model)](https://www.samsung.com/global/galaxy/galaxy-watch5/)
 
 ## Models
-- MOT: ByteTrack + YoloX
-- Behavior: SlowR50
-    - Dataset : AVA Kinetics 400 
+- MOT: [ByteTrack](https://github.com/ifzhang/ByteTrack) + [YoloX](https://github.com/Megvii-BaseDetection/YOLOX)
+
+- Behavior: [SlowR50](https://github.com/facebookresearch/SlowFast)
+    - Dataset : [AVA Kinetics 400](https://paperswithcode.com/dataset/ava)
 
 # More Informations
-[Descriptions](https://github.com/sts07142/senior_project)
+### [Descriptions](https://github.com/sts07142/senior_project)
+
+### [GuardianWatch APP](https://github.com/sts07142/guardianwatch_app)
+
+### [Bluetooth APP](https://github.com/sts07142/Bluetooth)
+
+### [BTmapping](https://github.com/sts07142/BTmapping)
 
 ### PPT
+
 ### YouTube
