@@ -1,5 +1,9 @@
 # GuardianWatch
-2023 - 2024 KOREN GuardianWatch
+Intelligent Childcare Center Safety Monitoring System
+
+> Using Multi-Object Tracking & Computer Vision Technology.
+
+A system that analyzes the daily life of a child at a childcare center.
 
 # Environments
 * &nbsp;OS : Linux Ubuntu 20.04.6 LTS
