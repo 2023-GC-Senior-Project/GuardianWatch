@@ -5,12 +5,18 @@ Intelligent Childcare Center Safety Monitoring System
 
 A system that analyzes the daily life of a child at a childcare center.
 
+# Overview
+|CCTV 원본|➡️|객체/행동 분석|➡️|BEV|
+|:---:|:---:|:---:|:---:|:---:|
+|[CCTV 사진]|➡️|[객체/행동분석 사진]|➡️|[BEV 사진]|
+
+
 # Environments
 * &nbsp;OS : Linux Ubuntu 20.04.6 LTS
 * CPU : Intel i9-9900KF
 * RAM : 64G
 * GPU : RTX 2080Ti 11GB
-* CUDA : 11.8
+* CUDA : 11.7
 
 # Main Skills
 - Python 3.11.5
