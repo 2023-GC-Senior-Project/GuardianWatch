@@ -8,7 +8,7 @@ A system that analyzes the daily life of a child at a childcare center.
 # Overview
 |CCTV 원본|➡️|객체/행동 분석|➡️|BEV|
 |:---:|:---:|:---:|:---:|:---:|
-|[CCTV 사진]|➡️|[객체/행동분석 사진]|➡️|[BEV 사진]|
+|![CCTV 사진](assets/raw1.png)|➡️|![객체/행동분석 사진](assets/mot1.png)|➡️|![BEV 사진](assets/bev1.png)|
 
 
 # Environments
