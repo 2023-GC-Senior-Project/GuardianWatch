@@ -299,12 +299,12 @@ git clone https://github.com/sts07142/guardianwatch_app
     - Dataset : [AVA Kinetics 400](https://paperswithcode.com/dataset/ava)
 
 # More Informations
-### [Descriptions](https://github.com/sts07142/senior_project)
+### [Descriptions](https://github.com/GuardianWatch/GuardianWatch/wiki)
 
-### [GuardianWatch APP](https://github.com/sts07142/guardianwatch_app)
+### [GuardianWatch APP](https://github.com/GuardianWatch/guardianwatch_app)
 
-### [Bluetooth APP](https://github.com/sts07142/Bluetooth)
+### [Bluetooth APP](https://github.com/GuardianWatch/Bluetooth)
 
-### [BTmapping](https://github.com/sts07142/BTmapping)
+### [BTmapping](https://github.com/GuardianWatch/BTmapping)
 
 ### [YouTube](https://www.youtube.com/watch?v=Sj-XykZ5lV8)
